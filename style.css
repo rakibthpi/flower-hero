@@ -18,3 +18,45 @@ ul{
 ul li a,a{
   text-decoration: none;
 }
+.container{
+  max-width: 1340px;
+  width: 100%;
+  margin:0 auto;
+}
+.banner_main {
+  background: #FCEEF1;
+  padding-top: 20px;
+}
+.banner_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flower img {
+  height: 403px;
+  width: auto;
+}
+.banner_text_area{
+  max-width: 600px;
+}
+h1 {
+  font-size: 48px;
+}
+.banner_text_area p{
+  padding: 20px 0 25px 0;
+}
+.btn-style {
+  background: #E55473;
+  color: #ffff;
+  display: inline-block;
+  padding: 11px 22px;
+  border-radius: 5px;
+}
+
+/* three item area start  */
+.header_top{
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
