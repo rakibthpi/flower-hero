@@ -42,6 +42,9 @@ ul li a,a{
 h1 {
   font-size: 48px;
 }
+h3 {
+  font-size: 35px;
+}
 .banner_text_area p{
   padding: 20px 0 25px 0;
 }
@@ -54,9 +57,35 @@ h1 {
 }
 
 /* three item area start  */
+.three_area{
+  padding: 90px 0 50px 0;
+}
 .header_top{
   max-width: 600px;
   width: 100%;
   margin: auto;
   text-align: center;
+}
+
+/* therre items  */
+.three_text{
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+  height: 100%;
+}
+.single_three_item{
+  flex: 0 0 31%;
+  text-align: center;
+  height: 100%;
+}
+.three_img {
+  background-color: gray;
+  border-radius: 50% 50% 0 0;
+  height: 100%;
+}
+.three_img img {
+  width: 300px;
+  height: auto;
+  padding-top: 50px;
 }
